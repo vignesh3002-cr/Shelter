@@ -16,7 +16,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "postinstall": "prisma generate",
+    "build": "prisma generate",
     "preview": "vite preview"
   }
 }
