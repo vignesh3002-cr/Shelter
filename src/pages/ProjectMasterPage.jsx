@@ -69,7 +69,7 @@ export default function ProjectMasterPage({ onViewReport, onLogout }) {
         <div className="flex items-center justify-between h-16 max-w-5xl px-6 mx-auto">
           <div className="flex items-center gap-3">
             <div className="flex items-center justify-center w-8 h-8 bg-white border border-gray-200 rounded-lg">
-              <img src=".././dist/Shelter_logo.png" alt="Shelter Logo" className="h-8.5 w-8.5" />
+              <img src="/Shelter_logo.png" alt="Shelter Logo" className="h-8.5 w-8.5" />
             </div>
             <div>
               <span className="text-sm font-semibold tracking-wide text-gray-900">SHELTER GROUP</span>
