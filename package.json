@@ -4,8 +4,6 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@prisma/client": "^7.8.0",
-    "prisma": "^7.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -18,8 +16,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "postinstall": "prisma generate",
-    "build": "prisma generate",
+    "build": "vite build",
     "preview": "vite preview"
   }
 }
